@@ -20,23 +20,23 @@ body {
 header, footer {
     background-color: black;
     color: white;
-    text-align: center; /* Centers text for inline or inline-block elements */
+    text-align: center; 
     padding: 1em 0;
-    width: 100%; /* Ensures the footer extends full width */
+    width: 100%; 
 }
 
 .typeform-embed iframe {
-    display: block; /* Makes the iframe a block-level element */
-    margin: auto; /* Automatically calculates equal left and right margins, centering the element */
-    max-width: 800px; /* Or the width of your preference */
-    height: 500px; /* Or the height of your preference */
+    display: block; 
+    margin: auto; 
+    max-width: 800px; 
+    height: 500px; 
 }
 
 footer video {
-    display: block; /* Makes the video a block-level element */
-    margin: auto; /* Centers the video */
-    max-width: 800px; /* Or the width of your preference */
-    height: auto; /* Maintains the aspect ratio of the video */
+    display: block; 
+    margin: auto; 
+    max-width: 800px; 
+    height: auto; 
 }
 
 
