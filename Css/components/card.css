@@ -1,0 +1,43 @@
+.player-profile {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.player-profile h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+}
+
+.player-profile h3 {
+    color: #0056b3;
+    font-size: 1.5rem;
+}
+
+.player-profile .bio,
+/* Flexbox Cards Grid */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.card {
+    font-size: 15px; 
+    flex: 1 0 250px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

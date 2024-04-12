@@ -1,0 +1,36 @@
+/* Banner Styles */
+.banner {
+    background-image: url('../../images/wembanyama-action-photo.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.banner .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.banner .button:hover {
+    background-color: #0056b3;
+}
+

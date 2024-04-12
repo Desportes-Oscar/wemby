@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;700&display=swap');
+@import "components/avatar.css";
+@import "components/banner.css";
+@import "components/button.css";
+@import "components/card.css";
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center; /* Centers text for inline or inline-block elements */
+    padding: 1em 0;
+    width: 100%; /* Ensures the footer extends full width */
+}
+
+.typeform-embed iframe {
+    display: block; /* Makes the iframe a block-level element */
+    margin: auto; /* Automatically calculates equal left and right margins, centering the element */
+    max-width: 800px; /* Or the width of your preference */
+    height: 500px; /* Or the height of your preference */
+}
+
+footer video {
+    display: block; /* Makes the video a block-level element */
+    margin: auto; /* Centers the video */
+    max-width: 800px; /* Or the width of your preference */
+    height: auto; /* Maintains the aspect ratio of the video */
+}
+
+
+
+
